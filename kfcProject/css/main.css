@@ -1,0 +1,303 @@
+main {
+  border: 2px solid red;
+}
+
+#imageUnederBlack {
+  width: 100%;
+  height: 60px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+#imageUnederBlack p {
+  padding-top: 20px;
+}
+.banner {
+  height: 450px;
+  background-image: url("https://images.ctfassets.net/9tka4b3550oc/5wysqLeeVhBsSa7VEsKRfF/51df521bde72070b6b0f9f1dd09419dd/000931_5flavors_Header_Desktop.jpg?q=75&w=1680");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-position-x: right;
+}
+#MENU {
+  margin: 50px auto;
+  width: 80%;
+}
+#MENU div {
+  display: flex;
+  justify-content: space-between;
+}
+#MENU > div > p {
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#MENU > div > a {
+  text-decoration: underline;
+  color: black;
+}
+
+#MENU #MENUImages {
+  margin-top: 50px;
+}
+#MENU #MENUImages img {
+  width: 10vw;
+}
+#MENU #MENUImages div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media all and (max-width: 800px) {
+  #MENU #MENUImages {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  #MENU {
+    width: 100%;
+    margin: 50px auto;
+  }
+  #MENU #MENUImages img {
+    width: 100%;
+  }
+}
+
+#SpecialWord {
+  margin: 120px auto 30px;
+  width: 80%;
+}
+#SPECIALOFFERS div {
+  display: flex;
+  justify-content: space-between;
+}
+#SPECIALOFFERS > div > p {
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#SPECIALOFFERS > div > a {
+  text-decoration: underline;
+  color: black;
+}
+
+#OFFERImages {
+  margin: 40px 0 0 10%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 180%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#OFFERImages > div {
+  height: 460px;
+  width: 430px;
+  display: block;
+}
+.specialword {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#OFFERImages > div > div > img {
+  max-width: 100%;
+  background-color: rgb(249, 247, 244);
+  border-radius: 10px;
+}
+#overflow::-webkit-scrollbar {
+  display: none;
+}
+#overflow {
+  overflow-x: scroll;
+}
+@media all and (max-width: 800px) {
+  #OFFERImages {
+    width: 300%;
+  }
+}
+
+#redbox {
+  margin-top: 70px;
+  width: 100%;
+  height: 870px;
+  background-color: rgb(250, 38, 38);
+  overflow: hidden;
+}
+#horizationalLine {
+  margin: 0 auto;
+  width: 10%;
+  display: flex;
+  height: 60px;
+}
+#horizationalLine > div {
+  height: 100%;
+  width: 20%;
+  margin: 0 auto;
+  background-color: white;
+}
+#redtext {
+  margin: 5% auto;
+  text-align: center;
+  width: 50%;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#redtext #ourFOOD {
+  font-size: large;
+}
+#redtext #weMake {
+  margin-top: 50px;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+#redtext > button {
+  margin-top: 30px;
+  height: 45px;
+  width: 180px;
+  color: white;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 50px;
+}
+#redtext > button:hover {
+  background-color: rgb(44, 36, 36);
+  cursor: pointer;
+}
+#redtext > div {
+  margin: -10%;
+}
+#redtext > div img {
+  height: 90vh;
+  max-width: 100%;
+}
+#underImage {
+  height: 70px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: rgb(250, 38, 38);
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#underImage > button {
+  height: 45px;
+  width: 180px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 50px;
+  border: none;
+}
+#fixed{
+  display: none;
+}
+@media all and (max-width:1000px){
+  #redtext > div img {
+    height: 500px;
+    max-width: 100%;
+  }
+  #redbox {
+    height: 1000px;
+    margin-top: -10%;
+  }
+  #underImage  {
+    display: none;
+  }
+  #redtext {
+    width: 80%;
+  }
+  #redtext #weMake {
+    margin-top: 50px;
+    font-size: 80px;
+  }
+  #fixed{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin-top: 120%;
+  }
+  #fixed > button{
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    width: 250px;
+    border-radius:50px ;
+    border: none;
+
+  }
+}
+#beforeFooter {
+  height: 420px;
+  display: flex;
+}
+#beforeFooter > div {
+  width: 100%;
+  padding: 10px;
+}
+#beforeFooter > div > div > #Unloke {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#Ptag {
+  margin-top: 110px;
+  margin-left: 31%;
+  width: 71%;
+}
+#unloke2nd {
+  opacity: 0.5;
+}
+#Ptag > button{
+  margin: 5% 0;
+  height: 45px;
+  width: 180px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 50px;
+  border: none;
+}
+
+#horizationalRedLine {
+  margin: -12px auto;
+  width:100px;
+  display: flex;
+  height: 160px;
+}
+#horizationalRedLine > div {
+  width: 20px;
+  margin: 0 auto;
+  background-color: rgb(255, 0, 0);
+}
+#capimage{
+  margin: auto;
+  text-align: center;
+  height: 180px;
+  overflow: hidden;
+  width: 120px;
+}
+#capimage > img{
+  margin: -380px;
+  width: 700px;
+  padding-bottom:300px ;
+}
+@media all and (max-width:1300px) {
+  #Ptag {
+    margin-top: 80px;
+    margin-left: 31%;
+    width: 71%;
+  }
+  #beforeFooter > div > div > #Unloke {
+    font-size: 30px;
+  }
+}

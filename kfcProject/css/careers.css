@@ -1,0 +1,55 @@
+#imgBack {
+  height: 400px;
+  background-image: url("https://images.ctfassets.net/9tka4b3550oc/5tRiGfQXCdlrlRXDVPWdYT/79fca81cf69dad4129d7f6c0e9c873f9/hero-careers.jpg?w=1680");
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 45, 46, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.overlay h1,
+.overlay p {
+  padding: 50px;
+}
+#applyJob {
+  margin: 10% 0 0 15%;
+}
+#applyJob > h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#applyJob > p {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#applyJob > div > div img{
+  height: 500px;
+  width: 400px;
+
+}
+
+#JobFild{
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  height: 650px;
+}
+#jobFild h1,h4{
+  margin-top: -90px;
+}
+.container> div> h1{
+  color: white;
+}
+.container> div> h4{
+  color: white;
+}
+#overflow{
+  overflow-y:scroll;
+}
+#overflow::-webkit-scrollbar{
+  display: none;
+}

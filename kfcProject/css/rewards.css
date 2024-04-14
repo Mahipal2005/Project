@@ -1,0 +1,209 @@
+main {
+  padding-top: 120px;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgb(249, 249, 249);
+}
+#container > div {
+  height: 500px;
+  width: 30vw;
+}
+#img1Div > img {
+  max-width: 120%;
+  margin: 200px 0 0 -110px;
+}
+#imglastdiv > img {
+  max-width: 120%;
+  margin: 200px 0 0 110px;
+}
+#subContanier {
+  text-align: center;
+}
+#subContanier > img {
+  max-width: 100%;
+  height: 250px;
+}
+#subContanier > p {
+  letter-spacing: 1px;
+  margin: auto;
+  font-family: "Gill Sans", sans-serif;
+  opacity: 0.3;
+}
+#subContanier > button {
+  margin-top: 50px;
+  width: 130px;
+  height: 40px;
+  background-color: #000;
+  color: white;
+  font-weight: 600;
+  border-radius: 50px;
+}
+@media all and (min-width: 700px) and (max-width: 1000px) {
+  #imglastdiv > img {
+    max-width: 200%;
+    margin: 200px 0 0 0px;
+  }
+  #subContanier {
+    text-align: center;
+  }
+  #img1Div > img {
+    max-width: 200%;
+    margin: 200px 0 0 -200px;
+  }
+  #container {
+    width: 80%;
+  }
+}
+@media all and (max-width: 700px) {
+  #img1Div {
+    display: none;
+  }
+  #container {
+    display: block;
+    margin: auto;
+  }
+  #container > div {
+    width: 100%;
+  }
+  #imglastdiv > img {
+    max-width: 100%;
+    margin: 20% auto 0;
+    display: block;
+  }
+  #subContanier {
+    margin: auto;
+  }
+  #subContanier > img {
+    max-width: 100%;
+    height: auto;
+  }
+  #subContanier > p {
+    margin: auto;
+  }
+}
+#secondCont{
+  display: flex;
+  justify-content: space-between;
+  margin:8% auto;
+  width: 70%;
+}
+#secondCont > div{
+  width: 50%;
+  height: 300px;
+  
+}
+#secondCont > div>h4{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  
+}
+#bigfont{
+  width: 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  letter-spacing: 1px;
+}
+#bigfont+p{
+  line-height: 25px;
+  font-family: Georgia, serif;
+  width: 70%;
+}
+#secondCont img{
+  max-width: 80%;
+}
+@media all and (max-width:1000px){
+  #secondCont{
+    display: block;
+    margin:10% auto;
+    width: 100%;
+  }
+  #secondCont > div{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    
+  }
+
+  #bigfont{
+    width: 100%;
+  }
+  #bigfont+p{
+    width: 100%;
+  }
+  #secondCont img{
+    margin-top:-15%;
+    width: 50%;
+  }
+}
+#secondCont2{
+  display: flex;
+  justify-content: space-between;
+  margin:8% auto;
+  width: 70%;
+}
+#secondCont2 > div{
+  width: 50%;
+  height: 300px;
+  
+}
+#secondCont2 > div>h4{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  
+}
+#bigfont2{
+  width: 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  letter-spacing: 1px;
+}
+#bigfont2+p{
+  line-height: 25px;
+  font-family: Georgia, serif;
+  width: 70%;
+}
+#secondCont2 img{
+  max-width: 80%;
+}
+@media all and (max-width:1000px){
+  #secondCont2{
+    display: flex;
+    flex-direction: column-reverse; /* Reverse the order of blocks */
+    margin:10% auto;
+    width: 100%;
+  }
+  #secondCont2 > div{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
+
+  #bigfont2{
+    width: 100%;
+  }
+  #bigfont2+p{
+    width: 100%;
+  }
+  #secondCont2 img{
+    margin-top:-15%;
+    width: 50%;
+  }
+}
+#signlog{
+  text-align: center; 
+}
+#signlog > button{
+ width: 150px;
+ height: 50px;
+ background-color: black;
+ color: white;
+ font-weight: 600;
+ border-radius: 50px;
+}
+#signlog > a{
+  color: black;
+}

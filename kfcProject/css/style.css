@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav select {
+  display: none;
+}
+
+nav {
+  padding-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Added align-items property */
+  height: 120px;
+  position: fixed;
+  background-color: white;
+  border-bottom: 2px solid red;
+}
+nav #threeLine{
+    display: none;
+}
+nav a {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navLogo {
+  margin-top: 7px;
+}
+
+#search {
+  margin-top: 10px;
+  display: flex; /* Added display flex for alignment */
+  align-items: center; /* Added align-items for alignment */
+}
+
+#search i {
+  margin-left: -2vw;
+}
+
+#search input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+a > button {
+  background-color: red;
+  margin-top: -10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  width: 100px;
+}
+
+@media all and (max-width: 1000px) {
+  nav .marginNone {
+    display: none;
+  }
+  
+  nav {
+    height: 80px;
+  }
+  nav #threeLine{
+    display: flex;
+}
+  #threeLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+    /* padding:0px; */
+  }
+  #threeLine > div> div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    
+  }
+
+  #menu > option {
+    width: 100%;
+    height: 20px;
+  }
+  #search input{
+    margin-top: -12px;
+  }
+}
+
+
+#threeLine:hover {
+  /* write code here please  */
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+  padding-top: 7vw;
+}
