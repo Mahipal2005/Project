@@ -16,9 +16,22 @@ main {
   height: 450px;
   background-image: url("https://images.ctfassets.net/9tka4b3550oc/5wysqLeeVhBsSa7VEsKRfF/51df521bde72070b6b0f9f1dd09419dd/000931_5flavors_Header_Desktop.jpg?q=75&w=1680");
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: cover; /* Center left */
   background-position-x: right;
 }
+
+#MainContainer .button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 20% 10%;
+  border-radius:50px ;
+  height: 50px;
+  width: 110px;
+  font-weight: 700;
+}
+
 #MENU {
   margin: 50px auto;
   width: 80%;

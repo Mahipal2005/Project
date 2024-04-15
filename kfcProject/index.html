@@ -25,6 +25,7 @@
         </div>
         <div><h1>KFC</h1></div>
       </div>
+
       <div class="navLogo marginNone">
         <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
       </div>
@@ -37,8 +38,8 @@
         <input type="text" placeholder="Search here" />
         <i class="fa-solid fa-magnifying-glass , marginNone"></i>
       </div>
-      <a href=""><i class="fa-regular fa-circle-user"></i></a>
-      <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+      <a href="./html/login.html"><i class="fa-regular fa-circle-user"></i></a>
+      <a href="./html/bag.html"><i class="fa-solid fa-bag-shopping"></i></a>
       <a class="marginNone" href=""><button>Start Order</button></a>
     </nav>
     <main>
@@ -47,7 +48,6 @@
       </div>
       <div id="MainContainer">
         <div class="banner">
-          <!-- <img src="https://imgs.search.brave.com/XadlikSgWpjdLATx6lBylCw7SAWZTJ_UtZsTCTOOAD0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2hld2Jvb20uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI0/LzAzL0tGQy1VbnZl/aWxzLU5ldy1TYXVj/eS1OdWdnZXRzLUlu/LTUtU2F1Y3ktRmxh/dm9ycy02Nzh4Mzgx/LmpwZw" alt=""> -->
         </div>
         <div id="imageUnederBlack">
           <p>
@@ -56,7 +56,7 @@
           </p>
         </div>
       </div>
-      <div id="MENU">
+      <div onclick="menu()" id="MENU">
         <div>
           <p>MENU</p>
           <a href="./html/menu.html"
@@ -117,12 +117,12 @@
       <div id="SPECIALOFFERS">
         <div id="SpecialWord">
           <p>SPECIAL OFFERS</p>
-          <a href="#"
+          <a href="./html/menu.html"
             ><span>See All Offers<i class="fa-solid fa-caret-right"></i></span
           ></a>
         </div>
         <div id="overflow">
-          <div id="OFFERImages">
+          <div onclick="menu()" id="OFFERImages">
             <div>
               <div class="Specialimage">
                 <img
@@ -239,7 +239,7 @@
       </div>
       <div id="underImage">
         <p id="ourFOOD">FinGer LIcKIN' GOOD IS NOW JUST A FEW CLICKS AWAY</p>
-        <button>Start Order</button>
+        <button onclick="startOrder()">Start Order</button>
       </div>
       <div id="beforeFooter">
         <div>
@@ -251,7 +251,7 @@
             <p id="unloke2nd">
               Create an account to get access to great deals and faster checkout
             </p>
-            <button>Sign me up!</button>
+            <button onclick="signup()">Sign me up!</button>
           </div>
         </div>
         <div>
@@ -311,3 +311,4 @@
     </footer>
   </body>
 </html>
+<script src="./js/index.js"></script>

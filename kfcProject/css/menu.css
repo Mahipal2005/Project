@@ -103,3 +103,34 @@ main {
     height: 33vw;
   }
 }
+#appeneitems{
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  text-align: center;
+  margin:0 9%;
+  gap: 20px;
+}
+#appeneitems img{
+  max-width: 80%;
+}
+.item{
+  /* width: 20%; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  height: 400px;
+}
+.item button{
+
+  margin:2px 20px;
+  color: rgb(255, 255, 255);
+  background-color:red;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+}
+#appeneitems>div :hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 5px 3px 8px;
+  border-radius: 20px;
+  /* height: 400px; */
+}
